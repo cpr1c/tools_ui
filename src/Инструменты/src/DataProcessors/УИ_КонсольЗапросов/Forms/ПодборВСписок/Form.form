@@ -169,36 +169,6 @@
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
-        <items xsi:type="form:Button">
-          <name>СписокЭлементовКомандаЗаполнитьИзСтрокиВнутр</name>
-          <id>55</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>СписокЭлементовКомандаЗаполнитьИзСтрокиВнутрРасширеннаяПодсказка</name>
-            <id>56</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <commandName>Form.Command.КомандаЗаполнитьИзСтрокиВнутр</commandName>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <representationInContextMenu>Auto</representationInContextMenu>
-        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -449,15 +419,19 @@
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <items xsi:type="form:Button">
-          <name>СписокЭлементовКомандаПередатьВСтрокуВнутр</name>
+          <name>СписокЭлементовКомандаПередатьВСтрокуXML</name>
           <id>53</id>
+          <title>
+            <key>ru</key>
+            <value>В строку XML</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокЭлементовКомандаПередатьВСтрокуВнутрРасширеннаяПодсказка</name>
+            <name>СписокЭлементовКомандаПередатьВСтрокуXMLРасширеннаяПодсказка</name>
             <id>54</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -471,11 +445,14 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>Form.Command.КомандаПередатьВСтрокуВнутр</commandName>
+          <commandName>Form.Command.КомандаПередатьВСтрокуXML</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <picture xsi:type="core:PictureRef">
+            <picture>CommonPicture.УИ_СписокЗначений</picture>
+          </picture>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <visible>true</visible>
@@ -938,6 +915,9 @@
     <use>
       <common>true</common>
     </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Document</picture>
+    </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КомандаЗаполнитьИзФайлов</name>
@@ -963,18 +943,21 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>КомандаПередатьВСтрокуВнутр</name>
+    <name>КомандаПередатьВСтрокуXML</name>
     <title>
       <key>ru</key>
-      <value>Команда передать в строку внутр</value>
+      <value>Команда передать в строку XML</value>
     </title>
     <id>6</id>
     <use>
       <common>true</common>
     </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Document</picture>
+    </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>КомандаПередатьВСтрокуВнутр</name>
+        <name>КомандаПередатьВСтрокуXML</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
