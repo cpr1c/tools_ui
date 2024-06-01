@@ -10440,6 +10440,10 @@
       <value>Вставить макро колонку</value>
     </title>
     <id>47</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Вставить макроколонку</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
