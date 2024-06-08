@@ -1020,6 +1020,36 @@
           <autoCommandBar>
             <name>СтруктураКоманднаяПанель</name>
             <id>3</id>
+            <items xsi:type="form:Button">
+              <name>СтруктураЗагрузитьНастройкиИзВариантаОтчета</name>
+              <id>889</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>СтруктураЗагрузитьНастройкиИзВариантаОтчетаРасширеннаяПодсказка</name>
+                <id>890</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ЗагрузитьНастройкиИзВариантаОтчета</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -14885,6 +14915,27 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗагрузитьНастройкиИзВариантаОтчета</name>
+    <title>
+      <key>ru</key>
+      <value>Загрузить настройки из варианта отчета</value>
+    </title>
+    <id>35</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.ChooseValue</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗагрузитьНастройкиИзВариантаОтчета</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
