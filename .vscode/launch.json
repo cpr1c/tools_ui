@@ -104,6 +104,20 @@
       "debugPort": 2801,
       "protocol": "tcp",
       "linux": { "runtimeExecutable": "/usr/bin/oscript" }
+    },
+    {
+      "name": "Тест парсера асинхронного",
+      "type": "oscript",
+      "request": "launch",
+      "program": "${workspaceRoot}/src/builder/lib/osparser/examples/testasync.os",
+      "args": [],
+      "cwd": "${workspaceRoot}/src/builder/lib/osparser/examples",
+      "env": {},
+      "runtimeExecutable": null,
+      "runtimeArgs": [],
+      "debugPort": 2801,
+      "protocol": "tcp",
+      "linux": { "runtimeExecutable": "/usr/bin/oscript" }
     }
   ]
 }
