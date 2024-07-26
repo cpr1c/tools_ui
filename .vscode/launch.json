@@ -19,7 +19,9 @@
       "runtimeArgs": [],
       "debugPort": 2801,
       "protocol": "tcp",
-      "linux": { "runtimeExecutable": "/usr/bin/oscript" }
+      "linux": {
+        "runtimeExecutable": "/usr/bin/oscript"
+      }
     },
     {
       "name": "Конвертация исходников",
@@ -27,7 +29,7 @@
       "request": "launch",
       "program": "${workspaceRoot}/src/builder/build.os",
       "args": [
-        "--versionEDT=edt@2023.1.4",
+        "--versionEDT=edt@2023.3.6",
         "--exportEDT=true",
         "--cfe=false",
         "--cf=false",
@@ -40,7 +42,9 @@
       "runtimeArgs": [],
       "debugPort": 2801,
       "protocol": "tcp",
-      "linux": { "runtimeExecutable": "/usr/bin/oscript" }
+      "linux": {
+        "runtimeExecutable": "/usr/bin/oscript"
+      }
     },
     {
       "name": "Сборка в расширение(Без исходников)",
@@ -61,7 +65,9 @@
       "runtimeArgs": [],
       "debugPort": 2801,
       "protocol": "tcp",
-      "linux": { "runtimeExecutable": "/usr/bin/oscript" }
+      "linux": {
+        "runtimeExecutable": "/usr/bin/oscript"
+      }
     },
     {
       "name": "Сборка в конфигурацию(Без исходников)",
@@ -82,7 +88,9 @@
       "runtimeArgs": [],
       "debugPort": 2801,
       "protocol": "tcp",
-      "linux": { "runtimeExecutable": "/usr/bin/oscript" }
+      "linux": {
+        "runtimeExecutable": "/usr/bin/oscript"
+      }
     },
     {
       "name": "Сборка во внешнюю обработку(Без исходников)",
@@ -90,7 +98,7 @@
       "request": "launch",
       "program": "${workspaceRoot}/src/builder/build.os",
       "args": [
-        "--platformSource=/opt/1cv8/x86_64/8.3.12.1924",
+        "--platformSource=C:\\Program Files\\1cv8\\8.3.23.2040\\bin",
         "--exportEDT=false",
         "--cfe=false",
         "--cf=false",
@@ -103,7 +111,9 @@
       "runtimeArgs": [],
       "debugPort": 2801,
       "protocol": "tcp",
-      "linux": { "runtimeExecutable": "/usr/bin/oscript" }
+      "linux": {
+        "runtimeExecutable": "/usr/bin/oscript"
+      }
     },
     {
       "name": "Тест парсера асинхронного",
@@ -117,7 +127,9 @@
       "runtimeArgs": [],
       "debugPort": 2801,
       "protocol": "tcp",
-      "linux": { "runtimeExecutable": "/usr/bin/oscript" }
+      "linux": {
+        "runtimeExecutable": "/usr/bin/oscript"
+      }
     }
   ]
 }
