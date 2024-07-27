@@ -11,7 +11,7 @@
       "program": "${workspaceRoot}/src/builder/build.os",
       "args": [
         "--platformSource=/opt/1cv8/x86_64/8.3.12.1924",
-        "--versionEDT=edt@2023.1.4"
+        "--versionEDT=edt@2023.3.6"
       ],
       "cwd": "${workspaceRoot}",
       "env": {},
