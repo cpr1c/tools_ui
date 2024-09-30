@@ -57,7 +57,7 @@
             </handlers>
             <width>30</width>
             <autoMaxWidth>true</autoMaxWidth>
-            <height>10</height>
+            <height>3</height>
             <autoMaxHeight>true</autoMaxHeight>
             <horizontalStretch>true</horizontalStretch>
             <verticalStretch>true</verticalStretch>
@@ -110,8 +110,7 @@
                 <id>130</id>
                 <title>
                   <key>ru</key>
-                  <value>&lt;color #e9967a>&amp;НаКлиенте&lt;/>
-РезультирущийHTMLДокументСформирован(Элемент)</value>
+                  <value>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>-&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;b> &lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;b>Элемент&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;i>ПолеФормы&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- Поле HTML документа &lt;/>&lt;/>&lt;/></value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -147,6 +146,7 @@
                 <type>Label</type>
                 <autoMaxHeight>true</autoMaxHeight>
                 <horizontalStretch>true</horizontalStretch>
+                <verticalStretch>false</verticalStretch>
                 <extInfo xsi:type="form:LabelDecorationExtInfo">
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
@@ -156,7 +156,7 @@
                 <id>211</id>
                 <title>
                   <key>ru</key>
-                  <value>Выполнить принудительно</value>
+                  <value>Выполнить</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -181,10 +181,7 @@
                 <type>UsualButton</type>
                 <commandName>Form.Command.ВыполнитьОбработчикСобытияДокументСформирован</commandName>
                 <representation>Auto</representation>
-                <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
-                <horizontalStretch>true</horizontalStretch>
-                <verticalStretch>true</verticalStretch>
                 <placementArea>UserCmds</placementArea>
                 <representationInContextMenu>Auto</representationInContextMenu>
               </items>
@@ -269,7 +266,7 @@
                 </handlers>
                 <width>30</width>
                 <autoMaxWidth>true</autoMaxWidth>
-                <height>10</height>
+                <height>3</height>
                 <autoMaxHeight>true</autoMaxHeight>
                 <horizontalStretch>true</horizontalStretch>
                 <verticalStretch>true</verticalStretch>
@@ -313,8 +310,9 @@
               <id>138</id>
               <title>
                 <key>ru</key>
-                <value>&lt;color #e9967a>&amp;НаКлиенте&lt;/>
-РезультирущийHTMLПриНажатии(Элемент, ДанныеСобытия, СтандартнаяОбработка)</value>
+                <value>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;b>Элемент&lt;/> - &lt;i>ПолеФормы&lt;/> - Поле HTML документа &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>
+&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;b>ДанныеСобытия&lt;/> - &lt;i>ФиксированнаяСтруктура&lt;/>- подробнее см. в синтаксис помощнике&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>
+&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;b>СтандартнаяОбработка&lt;/> - &lt;i>Булево&lt;/> - признак стандартной обработки события&lt;/>&lt;/>&lt;/></value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -403,7 +401,7 @@
                 </handlers>
                 <width>30</width>
                 <autoMaxWidth>true</autoMaxWidth>
-                <height>10</height>
+                <height>3</height>
                 <autoMaxHeight>true</autoMaxHeight>
                 <horizontalStretch>true</horizontalStretch>
                 <verticalStretch>true</verticalStretch>
@@ -1335,7 +1333,7 @@
             <extInfo xsi:type="form:TextDocFieldExtInfo">
               <width>30</width>
               <autoMaxWidth>true</autoMaxWidth>
-              <height>5</height>
+              <height>3</height>
               <autoMaxHeight>true</autoMaxHeight>
               <horizontalStretch>true</horizontalStretch>
               <verticalStretch>true</verticalStretch>
@@ -1526,7 +1524,7 @@
             </handlers>
             <width>50</width>
             <autoMaxWidth>true</autoMaxWidth>
-            <height>10</height>
+            <height>5</height>
             <autoMaxHeight>true</autoMaxHeight>
             <horizontalStretch>true</horizontalStretch>
             <verticalStretch>true</verticalStretch>
