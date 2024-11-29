@@ -223,6 +223,7 @@
         <textEdit>true</textEdit>
       </extInfo>
     </items>
+    <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
       <name>ДеревоЗначенияКоманднаяПанель</name>
       <id>5</id>
@@ -380,9 +381,12 @@
     </contextMenu>
     <representation>Tree</representation>
     <readOnly>true</readOnly>
+    <changeRowSet>true</changeRowSet>
+    <changeRowOrder>true</changeRowOrder>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
     <autoMaxRowsCount>true</autoMaxRowsCount>
+    <rowSelectionMode>Row</rowSelectionMode>
     <header>true</header>
     <headerHeight>1</headerHeight>
     <footerHeight>1</footerHeight>
@@ -393,9 +397,10 @@
     <useAlternationRowColor>true</useAlternationRowColor>
     <searchOnInput>Auto</searchOnInput>
     <initialListView>Auto</initialListView>
-    <initialTreeView>ExpandTopLevel</initialTreeView>
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
+    <enableStartDrag>true</enableStartDrag>
+    <enableDrag>true</enableDrag>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
@@ -570,9 +575,7 @@
         <value>Значение тип значения</value>
       </title>
       <id>10</id>
-      <valueType>
-        <types>TypeDescription</types>
-      </valueType>
+      <valueType/>
       <view>
         <common>true</common>
       </view>
@@ -633,6 +636,24 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>ВидКонтейнера</name>
+      <title>
+        <key>ru</key>
+        <value>Вид контейнера</value>
+      </title>
+      <id>16</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>Выражение</name>
@@ -645,6 +666,21 @@
       <types>String</types>
       <stringQualifiers/>
     </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ВидыКонтейнера</name>
+    <title>
+      <key>ru</key>
+      <value>Виды контейнера</value>
+    </title>
+    <id>15</id>
+    <valueType/>
     <view>
       <common>true</common>
     </view>
