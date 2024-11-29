@@ -203,4 +203,5 @@
   <dataProcessors>DataProcessor.УИ_УниверсальныйОбменДаннымиXML</dataProcessors>
   <dataProcessors>DataProcessor.УИ_ФайловыйМенеджер</dataProcessors>
   <dataProcessors>DataProcessor.УИ_РедакторПараметровСеанса</dataProcessors>
+  <dataProcessors>DataProcessor.УИ_ПросмотрЗначения</dataProcessors>
 </mdclass:Configuration>

@@ -98,6 +98,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.УИ_ПросмотрЗначения</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.УИ_ПреобразованиеДанныхJSON</name>
 		<right>
 			<name>Use</name>
@@ -109,11 +120,32 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.УИ_РедакторХранилищаЗначения</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.УИ_РедакторСтруктуры</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.УИ_ПарсерВстроенногоЯзыка</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.УИ_РедакторКартинки</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -160,6 +192,13 @@
 	</object>
 	<object>
 		<name>CommonForm.УИ_ПараметрыЗаписи</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.УИ_РедакторСоответствия</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -256,6 +295,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.УИ_РедакторПараметровСеанса</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.УИ_УниверсальныйОбменДаннымиXML</name>
 		<right>
 			<name>Use</name>
@@ -268,6 +318,13 @@
 	</object>
 	<object>
 		<name>CommonForm.УИ_РедакторУникальногоИдентификатора</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.УИ_ПараметрыСессииВзаимодействияРедактораКода</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -414,6 +471,20 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.УИ_РедакторМоментаВремени</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.УИ_РедакторДвоичныхДанных</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.УИ_КонсольHTTPЗапросов</name>
 		<right>
 			<name>Use</name>
@@ -430,6 +501,13 @@
 			<name>Use</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.УИ_РедакторГраницы</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -718,6 +796,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.УИ_ФормаСпискаЗначений</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.УИ_ДинамическийСписок</name>
 		<right>
 			<name>Use</name>
@@ -755,80 +840,6 @@
 			<name>Use</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.УИ_РедакторМоментаВремени</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.УИ_РедакторГраницы</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.УИ_РедакторСтруктуры</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.УИ_РедакторСоответствия</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.УИ_РедакторХранилищаЗначения</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.УИ_ФормаСпискаЗначений</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.УИ_РедакторКартинки</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.УИ_РедакторДвоичныхДанных</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.УИ_РедакторПараметровСеанса</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.УИ_ПараметрыСессииВзаимодействияРедактораКода</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
