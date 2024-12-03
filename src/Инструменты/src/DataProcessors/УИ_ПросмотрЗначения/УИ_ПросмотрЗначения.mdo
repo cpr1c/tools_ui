@@ -20,4 +20,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="4ced80ea-81b0-4dac-96b9-e47fa6a3e11c">
+    <name>Коллекция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коллекция</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>
