@@ -607,6 +607,10 @@
       <event>BeforeExpand</event>
       <name>ДеревоЗначенияПередРазворачиванием</name>
     </handlers>
+    <handlers>
+      <event>Selection</event>
+      <name>ДеревоЗначенияВыбор</name>
+    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
