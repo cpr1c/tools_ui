@@ -802,8 +802,10 @@
     </title>
     <id>3</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
     </valueType>
     <view>
       <common>true</common>
@@ -836,8 +838,10 @@
       </title>
       <id>5</id>
       <valueType>
-        <types>String</types>
-        <stringQualifiers/>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -1012,6 +1016,23 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ВозможенДоступКЭлементуКоллекцииПоИндексу</name>
+    <title>
+      <key>ru</key>
+      <value>Возможен доступ к элементу коллекции по индексу</value>
+    </title>
+    <id>17</id>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>
