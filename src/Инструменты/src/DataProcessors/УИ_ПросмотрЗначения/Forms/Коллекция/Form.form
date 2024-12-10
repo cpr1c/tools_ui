@@ -869,21 +869,6 @@
       </edit>
     </columns>
     <columns>
-      <name>Значение</name>
-      <title>
-        <key>ru</key>
-        <value>Значение</value>
-      </title>
-      <id>8</id>
-      <valueType/>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
       <name>ЗначениеКонтейнер</name>
       <title>
         <key>ru</key>
