@@ -200,6 +200,57 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
+      <name>ТаблицаКоллекцииЗначениеЕстьОшибка</name>
+      <id>56</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаКоллекции.ЗначениеЕстьОшибка</segments>
+      </dataPath>
+      <titleLocation>None</titleLocation>
+      <extendedTooltip>
+        <name>ТаблицаКоллекцииЗначениеЕстьОшибкаРасширеннаяПодсказка</name>
+        <id>58</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ТаблицаКоллекцииЗначениеЕстьОшибкаКонтекстноеМеню</name>
+        <id>57</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>PictureField</type>
+      <editMode>Enter</editMode>
+      <cellHyperlink>true</cellHyperlink>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:ImageFieldExtInfo">
+        <width>1</width>
+        <autoMaxHeight>true</autoMaxHeight>
+        <verticalStretch>true</verticalStretch>
+        <valuesPicture xsi:type="core:PictureRef">
+          <picture>CommonPicture.УИ_ВосклицательныйЗнакКрасный</picture>
+        </valuesPicture>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>ТаблицаКоллекцииИндекс</name>
       <id>27</id>
       <visible>true</visible>
@@ -328,106 +379,6 @@
       <contextMenu>
         <name>ТаблицаКоллекцииЗначениеТипЗначенияПредставлениеКонтекстноеМеню</name>
         <id>37</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>ТаблицаКоллекцииВидКонтейнера</name>
-      <id>39</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ТаблицаКоллекции.ВидКонтейнера</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ТаблицаКоллекцииВидКонтейнераРасширеннаяПодсказка</name>
-        <id>41</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ТаблицаКоллекцииВидКонтейнераКонтекстноеМеню</name>
-        <id>40</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>ТаблицаКоллекцииИмяОбъектаМетаданных</name>
-      <id>42</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ТаблицаКоллекции.ИмяОбъектаМетаданных</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ТаблицаКоллекцииИмяОбъектаМетаданныхРасширеннаяПодсказка</name>
-        <id>44</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ТаблицаКоллекцииИмяОбъектаМетаданныхКонтекстноеМеню</name>
-        <id>43</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -945,6 +896,41 @@
         <value>Имя объекта метаданных</value>
       </title>
       <id>13</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ЗначениеЕстьОшибка</name>
+      <title>
+        <key>ru</key>
+        <value>Значение есть ошибка</value>
+      </title>
+      <id>18</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ЗначениеОписаниеОшибки</name>
+      <title>
+        <key>ru</key>
+        <value>Значение описание ошибки</value>
+      </title>
+      <id>19</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>

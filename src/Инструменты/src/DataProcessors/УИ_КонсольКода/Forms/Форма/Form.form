@@ -948,6 +948,59 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <items xsi:type="form:FormField">
+            <name>ЗначенияПерменныхПослеВыполненияЗначениеЕстьОшибка</name>
+            <id>231</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ЗначенияПерменныхПослеВыполнения.ЗначениеЕстьОшибка</segments>
+            </dataPath>
+            <titleLocation>None</titleLocation>
+            <extendedTooltip>
+              <name>ЗначенияПерменныхПослеВыполненияЗначениеЕстьОшибкаРасширеннаяПодсказка</name>
+              <id>233</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ЗначенияПерменныхПослеВыполненияЗначениеЕстьОшибкаКонтекстноеМеню</name>
+              <id>232</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>PictureField</type>
+            <editMode>Enter</editMode>
+            <cellHyperlink>true</cellHyperlink>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:ImageFieldExtInfo">
+              <width>1</width>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <verticalStretch>true</verticalStretch>
+              <valuesPicture xsi:type="core:PictureRef">
+                <picture>CommonPicture.УИ_ВосклицательныйЗнакКрасный</picture>
+              </valuesPicture>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
             <name>ЗначенияПерменныхПослеВыполненияИмя</name>
             <id>218</id>
             <visible>true</visible>
@@ -2104,6 +2157,41 @@
         <value>Вид контейнера</value>
       </title>
       <id>37</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ЗначениеЕстьОшибка</name>
+      <title>
+        <key>ru</key>
+        <value>Значение есть ошибка</value>
+      </title>
+      <id>38</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ЗначениеОписаниеОшибки</name>
+      <title>
+        <key>ru</key>
+        <value>Значение описание ошибки</value>
+      </title>
+      <id>39</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>

@@ -82,6 +82,8 @@
   <commonPictures>CommonPicture.УИ_СгенерированныйКод</commonPictures>
   <commonPictures>CommonPicture.УИ_Папка</commonPictures>
   <commonPictures>CommonPicture.УИ_ОчиститьФормат</commonPictures>
+  <commonPictures>CommonPicture.УИ_Предупреждение</commonPictures>
+  <commonPictures>CommonPicture.УИ_ВосклицательныйЗнакКрасный</commonPictures>
   <roles>Role.УИ_ПолныеПрава</roles>
   <commonTemplates>CommonTemplate.УИ_КомпонентаРаботыСРегулярнымиВыражениямиRegExБраузеры</commonTemplates>
   <commonTemplates>CommonTemplate.УИ_КомпонентаРаботыСРегулярнымиВыражениямиRegEx</commonTemplates>
