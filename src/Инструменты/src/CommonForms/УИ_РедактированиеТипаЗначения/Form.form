@@ -1629,6 +1629,111 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>СоставНачальногоОписанияТипов</name>
+    <title>
+      <key>ru</key>
+      <value>Состав начального описания типов</value>
+    </title>
+    <id>24</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>Идентификатор</name>
+      <title>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </title>
+      <id>25</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ИдентификаторОчищенный</name>
+      <title>
+        <key>ru</key>
+        <value>Идентификатор очищенный</value>
+      </title>
+      <id>26</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ЭтоНабор</name>
+      <title>
+        <key>ru</key>
+        <value>Это набор</value>
+      </title>
+      <id>27</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ЭтоТипКонфигурации</name>
+      <title>
+        <key>ru</key>
+        <value>Это тип конфигурации</value>
+      </title>
+      <id>28</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ИдентификаторТипаКонфигурацииДляПоиска</name>
+      <title>
+        <key>ru</key>
+        <value>Идентификатор типа конфигурации для поиска</value>
+      </title>
+      <id>29</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
   <formCommands>
     <name>Применить</name>
     <title>
