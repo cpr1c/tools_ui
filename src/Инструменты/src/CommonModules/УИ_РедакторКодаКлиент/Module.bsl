@@ -2750,6 +2750,10 @@
 			
 			ДокументView.appTo1C.setMode(ТекЯзык);
 			
+			Если ТекЯзык <> "_1c" И ТекЯзык <> "bsl_query" Тогда
+				ДокументView.editor.setTheme("ace/theme/eclipse");
+			КонецЕсли;
+			
 			Если ЗначениеЗаполнено(ПараметрыРедактора.СобытияРедактора.ПриИзменении) Тогда
 				ДокументView.appTo1C.setGenerateModificationEvent(Истина);
 			КонецЕсли;

@@ -1942,7 +1942,7 @@
                     <common>true</common>
                   </userVisible>
                   <dataPath xsi:type="form:DataPath">
-                    <segments>Items.ДеревоЗапросов.CurrentData.ТелоСтрокой</segments>
+                    <segments>ПолеТелаЗапроса</segments>
                   </dataPath>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
@@ -8869,6 +8869,24 @@
       <value>Поле алгоритма перед выполнением</value>
     </title>
     <id>164</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПолеТелаЗапроса</name>
+    <title>
+      <key>ru</key>
+      <value>Поле тела запроса</value>
+    </title>
+    <id>165</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
