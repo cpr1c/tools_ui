@@ -844,6 +844,7 @@
               <key>ru</key>
               <value>Наборы</value>
             </collapsedRepresentationTitle>
+            <collapsed>true</collapsed>
             <united>true</united>
             <showTitle>true</showTitle>
             <throughAlign>Auto</throughAlign>
@@ -5042,39 +5043,6 @@
                 <currentRowUse>Auto</currentRowUse>
               </extInfo>
             </items>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Прочее</value>
-            </title>
-            <extendedTooltip>
-              <name>ГруппаСтраницаЗапросаПрочееРасширеннаяПодсказка</name>
-              <id>481</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <type>Page</type>
-            <extInfo xsi:type="form:PageGroupExtInfo">
-              <group>Vertical</group>
-              <showTitle>true</showTitle>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormGroup">
-            <name>ГруппаСтраницаЗапросаКомментарий</name>
-            <id>493</id>
             <items xsi:type="form:FormField">
               <name>ДеревоЗапросовКомментарий</name>
               <id>495</id>
@@ -5086,7 +5054,6 @@
               <dataPath xsi:type="form:DataPath">
                 <segments>Items.ДеревоЗапросов.CurrentData.Комментарий</segments>
               </dataPath>
-              <titleLocation>None</titleLocation>
               <extendedTooltip>
                 <name>ДеревоЗапросовКомментарийРасширеннаяПодсказка</name>
                 <id>497</id>
@@ -5132,11 +5099,242 @@
             </userVisible>
             <title>
               <key>ru</key>
+              <value>Прочее</value>
+            </title>
+            <extendedTooltip>
+              <name>ГруппаСтраницаЗапросаПрочееРасширеннаяПодсказка</name>
+              <id>481</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Page</type>
+            <extInfo xsi:type="form:PageGroupExtInfo">
+              <group>Vertical</group>
+              <showTitle>true</showTitle>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormGroup">
+            <name>ГруппаСтраницаЗапросаКомментарий</name>
+            <id>493</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
               <value>Комментарий</value>
             </title>
             <extendedTooltip>
               <name>ГруппаСтраницаЗапросаКомментарийРасширеннаяПодсказка</name>
               <id>494</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Page</type>
+            <extInfo xsi:type="form:PageGroupExtInfo">
+              <group>Vertical</group>
+              <showTitle>true</showTitle>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormGroup">
+            <name>ГруппаСтраницаЗапросаАлгоритмы</name>
+            <id>693</id>
+            <items xsi:type="form:FormGroup">
+              <name>ГруппаСтраницыАлгоритмыЗапроса</name>
+              <id>698</id>
+              <items xsi:type="form:FormGroup">
+                <name>ГруппаСтраницаАлгоритмовЗапросаПередВыполнением</name>
+                <id>700</id>
+                <items xsi:type="form:Decoration">
+                  <name>ДекорацияАлгоритмПередВыполнениемЛегенда</name>
+                  <id>702</id>
+                  <title>
+                    <key>ru</key>
+                    <value>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;b>Запрос&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Consolas>&lt;fontsize 10>&lt;bgcolor #d4d4d4>HTTPЗапрос&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- Подготовленный к выполнению запрос &lt;/>&lt;/>&lt;/>
+&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;b>Соединение&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;bgcolor #ffffff>&lt;font Consolas>&lt;fontsize 10>&lt;bgcolor #d4d4d4>&lt;u>HTTPСоединение&lt;/>&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- Подготовленное к выполнению соединение&lt;/>&lt;/>&lt;/>
+&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;b>Отказ&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;i>Булево&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- Если установлено &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;i>Истина&lt;/>&lt;/>&lt;/>&lt;/>
+</value>
+                  </title>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>ДекорацияАлгоритмПередВыполнениемЛегендаРасширеннаяПодсказка</name>
+                    <id>704</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>ДекорацияАлгоритмПередВыполнениемЛегендаКонтекстноеМеню</name>
+                    <id>703</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <formatted>true</formatted>
+                  <type>Label</type>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <horizontalStretch>true</horizontalStretch>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </items>
+                <items xsi:type="form:FormField">
+                  <name>ДеревоЗапросовАлгоритмПередВыполнением</name>
+                  <id>695</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>ПолеАлгоритмаПередВыполнением</segments>
+                  </dataPath>
+                  <titleLocation>None</titleLocation>
+                  <extendedTooltip>
+                    <name>ДеревоЗапросовАлгоритмПередВыполнениемРасширеннаяПодсказка</name>
+                    <id>697</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>ДеревоЗапросовАлгоритмПередВыполнениемКонтекстноеМеню</name>
+                    <id>696</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <type>TextDocumentField</type>
+                  <editMode>Enter</editMode>
+                  <showInHeader>true</showInHeader>
+                  <headerHorizontalAlign>Left</headerHorizontalAlign>
+                  <showInFooter>true</showInFooter>
+                  <extInfo xsi:type="form:TextDocFieldExtInfo">
+                    <width>25</width>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <height>5</height>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <horizontalStretch>true</horizontalStretch>
+                    <verticalStretch>true</verticalStretch>
+                  </extInfo>
+                </items>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>Перед выполнением</value>
+                </title>
+                <extendedTooltip>
+                  <name>ГруппаСтраницаАлгоритмовЗапросаПередВыполнениемРасширеннаяПодсказка</name>
+                  <id>701</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <type>Page</type>
+                <extInfo xsi:type="form:PageGroupExtInfo">
+                  <group>Vertical</group>
+                  <showTitle>true</showTitle>
+                </extInfo>
+              </items>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Группа1</value>
+              </title>
+              <extendedTooltip>
+                <name>ГруппаСтраницыАлгоритмыЗапросаРасширеннаяПодсказка</name>
+                <id>699</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <type>Pages</type>
+              <extInfo xsi:type="form:PagesGroupExtInfo">
+                <pagesRepresentation>TabsOnTop</pagesRepresentation>
+                <currentRowUse>Auto</currentRowUse>
+              </extInfo>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Алгоритмы</value>
+            </title>
+            <extendedTooltip>
+              <name>ГруппаСтраницаЗапросаАлгоритмыРасширеннаяПодсказка</name>
+              <id>694</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -7569,6 +7767,42 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>АлгоритмОбработкиРезультата</name>
+      <title>
+        <key>ru</key>
+        <value>Алгоритм обработки результата</value>
+      </title>
+      <id>162</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>АлгоритмПередВыполнением</name>
+      <title>
+        <key>ru</key>
+        <value>Алгоритм перед выполнением</value>
+      </title>
+      <id>163</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
     <additionalColumns>
       <tablePath xsi:type="form:DataPath">
         <segments>ДеревоЗапросов.Заголовки</segments>
@@ -8620,6 +8854,24 @@
       <numberQualifiers>
         <precision>10</precision>
       </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПолеАлгоритмаПередВыполнением</name>
+    <title>
+      <key>ru</key>
+      <value>Поле алгоритма перед выполнением</value>
+    </title>
+    <id>164</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
     <view>
       <common>true</common>
