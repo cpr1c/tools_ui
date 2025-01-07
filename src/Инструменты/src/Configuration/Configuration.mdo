@@ -35,55 +35,56 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.УИ_УниверсальныеИнструменты</subsystems>
+  <commonPictures>CommonPicture.УИ_JSON</commonPictures>
+  <commonPictures>CommonPicture.УИ_Null</commonPictures>
+  <commonPictures>CommonPicture.УИ_Булево</commonPictures>
+  <commonPictures>CommonPicture.УИ_ВидДвиженияНакопления</commonPictures>
+  <commonPictures>CommonPicture.УИ_ВидыОбъектовМетаданных</commonPictures>
+  <commonPictures>CommonPicture.УИ_Вопрос32</commonPictures>
+  <commonPictures>CommonPicture.УИ_ВопросРазработчику</commonPictures>
+  <commonPictures>CommonPicture.УИ_ВосклицательныйЗнакКрасный</commonPictures>
+  <commonPictures>CommonPicture.УИ_ВыполнитьРегламентноеЗаданиеВручную</commonPictures>
+  <commonPictures>CommonPicture.УИ_Граница</commonPictures>
+  <commonPictures>CommonPicture.УИ_Дата</commonPictures>
+  <commonPictures>CommonPicture.УИ_Импорт</commonPictures>
+  <commonPictures>CommonPicture.УИ_Информация</commonPictures>
+  <commonPictures>CommonPicture.УИ_Информация32</commonPictures>
+  <commonPictures>CommonPicture.УИ_КоллекцияПиктограммФайлов</commonPictures>
+  <commonPictures>CommonPicture.УИ_КоллекцияПиктограммФайлов48</commonPictures>
+  <commonPictures>CommonPicture.УИ_МакроКолонка</commonPictures>
+  <commonPictures>CommonPicture.УИ_Массив</commonPictures>
+  <commonPictures>CommonPicture.УИ_МоментВремени</commonPictures>
+  <commonPictures>CommonPicture.УИ_НаборДанныхСКДЗапрос</commonPictures>
+  <commonPictures>CommonPicture.УИ_НаборДанныхСКДОбъединение</commonPictures>
+  <commonPictures>CommonPicture.УИ_НаборДанныхСКДОбъект</commonPictures>
+  <commonPictures>CommonPicture.УИ_НоваяФорма</commonPictures>
+  <commonPictures>CommonPicture.УИ_ОписаниеТипов</commonPictures>
+  <commonPictures>CommonPicture.УИ_Отладка</commonPictures>
+  <commonPictures>CommonPicture.УИ_ОчиститьФормат</commonPictures>
+  <commonPictures>CommonPicture.УИ_Папка</commonPictures>
+  <commonPictures>CommonPicture.УИ_Поделиться</commonPictures>
+  <commonPictures>CommonPicture.УИ_ПодсистемаУниверсальныеИнструмены</commonPictures>
+  <commonPictures>CommonPicture.УИ_Предупреждение</commonPictures>
+  <commonPictures>CommonPicture.УИ_ПроизвольныйТип</commonPictures>
+  <commonPictures>CommonPicture.УИ_РедакторОбъектовБазыДанных</commonPictures>
+  <commonPictures>CommonPicture.УИ_РезультатВыгрузки</commonPictures>
+  <commonPictures>CommonPicture.УИ_РезультатЗапроса</commonPictures>
+  <commonPictures>CommonPicture.УИ_Репозиторий</commonPictures>
+  <commonPictures>CommonPicture.УИ_СгенерированныйКод</commonPictures>
+  <commonPictures>CommonPicture.УИ_Семафор</commonPictures>
+  <commonPictures>CommonPicture.УИ_СкопироватьВБуферОбмена</commonPictures>
+  <commonPictures>CommonPicture.УИ_СостоянияАвторегистрации</commonPictures>
+  <commonPictures>CommonPicture.УИ_СостоянияПланаОбмена</commonPictures>
+  <commonPictures>CommonPicture.УИ_СписокЗначений</commonPictures>
+  <commonPictures>CommonPicture.УИ_Строка</commonPictures>
+  <commonPictures>CommonPicture.УИ_ТаблицаЗначений</commonPictures>
+  <commonPictures>CommonPicture.УИ_Тип</commonPictures>
+  <commonPictures>CommonPicture.УИ_ТипДерево</commonPictures>
   <commonPictures>CommonPicture.УИ_УвеличитьШрифт</commonPictures>
   <commonPictures>CommonPicture.УИ_УменьшитьШрифт</commonPictures>
-  <commonPictures>CommonPicture.УИ_ТипДерево</commonPictures>
-  <commonPictures>CommonPicture.УИ_ПодсистемаУниверсальныеИнструмены</commonPictures>
-  <commonPictures>CommonPicture.УИ_ВыполнитьРегламентноеЗаданиеВручную</commonPictures>
-  <commonPictures>CommonPicture.УИ_СостоянияПланаОбмена</commonPictures>
-  <commonPictures>CommonPicture.УИ_ВидыОбъектовМетаданных</commonPictures>
-  <commonPictures>CommonPicture.УИ_Информация32</commonPictures>
-  <commonPictures>CommonPicture.УИ_РезультатЗапроса</commonPictures>
-  <commonPictures>CommonPicture.УИ_РезультатВыгрузки</commonPictures>
-  <commonPictures>CommonPicture.УИ_СостоянияАвторегистрации</commonPictures>
-  <commonPictures>CommonPicture.УИ_Семафор</commonPictures>
-  <commonPictures>CommonPicture.УИ_ВопросРазработчику</commonPictures>
-  <commonPictures>CommonPicture.УИ_Репозиторий</commonPictures>
-  <commonPictures>CommonPicture.УИ_Отладка</commonPictures>
-  <commonPictures>CommonPicture.УИ_Вопрос32</commonPictures>
-  <commonPictures>CommonPicture.УИ_КоллекцияПиктограммФайлов48</commonPictures>
-  <commonPictures>CommonPicture.УИ_КоллекцияПиктограммФайлов</commonPictures>
-  <commonPictures>CommonPicture.УИ_РедакторОбъектовБазыДанных</commonPictures>
-  <commonPictures>CommonPicture.УИ_JSON</commonPictures>
-  <commonPictures>CommonPicture.УИ_Информация</commonPictures>
-  <commonPictures>CommonPicture.УИ_НаборДанныхСКДОбъект</commonPictures>
-  <commonPictures>CommonPicture.УИ_НаборДанныхСКДОбъединение</commonPictures>
-  <commonPictures>CommonPicture.УИ_НаборДанныхСКДЗапрос</commonPictures>
-  <commonPictures>CommonPicture.УИ_Число</commonPictures>
-  <commonPictures>CommonPicture.УИ_Строка</commonPictures>
-  <commonPictures>CommonPicture.УИ_Дата</commonPictures>
-  <commonPictures>CommonPicture.УИ_Булево</commonPictures>
   <commonPictures>CommonPicture.УИ_УникальныйИдентификатор</commonPictures>
-  <commonPictures>CommonPicture.УИ_Null</commonPictures>
-  <commonPictures>CommonPicture.УИ_ПроизвольныйТип</commonPictures>
-  <commonPictures>CommonPicture.УИ_ВидДвиженияНакопления</commonPictures>
-  <commonPictures>CommonPicture.УИ_ТаблицаЗначений</commonPictures>
-  <commonPictures>CommonPicture.УИ_СписокЗначений</commonPictures>
-  <commonPictures>CommonPicture.УИ_Массив</commonPictures>
-  <commonPictures>CommonPicture.УИ_Тип</commonPictures>
-  <commonPictures>CommonPicture.УИ_МоментВремени</commonPictures>
-  <commonPictures>CommonPicture.УИ_Граница</commonPictures>
-  <commonPictures>CommonPicture.УИ_НоваяФорма</commonPictures>
-  <commonPictures>CommonPicture.УИ_МакроКолонка</commonPictures>
-  <commonPictures>CommonPicture.УИ_Поделиться</commonPictures>
-  <commonPictures>CommonPicture.УИ_СкопироватьВБуферОбмена</commonPictures>
-  <commonPictures>CommonPicture.УИ_ОписаниеТипов</commonPictures>
   <commonPictures>CommonPicture.УИ_ФиксированныйМассив</commonPictures>
-  <commonPictures>CommonPicture.УИ_СгенерированныйКод</commonPictures>
-  <commonPictures>CommonPicture.УИ_Папка</commonPictures>
-  <commonPictures>CommonPicture.УИ_ОчиститьФормат</commonPictures>
-  <commonPictures>CommonPicture.УИ_Предупреждение</commonPictures>
-  <commonPictures>CommonPicture.УИ_ВосклицательныйЗнакКрасный</commonPictures>
+  <commonPictures>CommonPicture.УИ_Число</commonPictures>
   <roles>Role.УИ_ПолныеПрава</roles>
   <commonTemplates>CommonTemplate.УИ_КомпонентаРаботыСРегулярнымиВыражениямиRegExБраузеры</commonTemplates>
   <commonTemplates>CommonTemplate.УИ_КомпонентаРаботыСРегулярнымиВыражениямиRegEx</commonTemplates>
@@ -136,34 +137,35 @@
   <httpServices>HTTPService.УИ_ПубликуемыеФункции</httpServices>
   <commonCommands>CommonCommand.УИ_НастройкиИнструментов</commonCommands>
   <commonForms>CommonForm.УИ_ДлительнаяОперация</commonForms>
-  <commonForms>CommonForm.УИ_ФормаТаблицыЗначений</commonForms>
-  <commonForms>CommonForm.УИ_ФормаСпецЗначения</commonForms>
-  <commonForms>CommonForm.УИ_ФормаРедактированияТекста</commonForms>
-  <commonForms>CommonForm.УИ_ФормаХранилищаЗначения</commonForms>
-  <commonForms>CommonForm.УИ_ФормаВыбораТипаОбъекта</commonForms>
-  <commonForms>CommonForm.УИ_ПараметрыЗаписи</commonForms>
-  <commonForms>CommonForm.УИ_ФормаРедактированияСпискаЗначений</commonForms>
-  <commonForms>CommonForm.УИ_РедактированиеТипаЗначения</commonForms>
-  <commonForms>CommonForm.УИ_РедакторТаблицыЗначений</commonForms>
-  <commonForms>CommonForm.УИ_НастройкиОтладкиДополнительныхОбработок</commonForms>
-  <commonForms>CommonForm.УИ_НастройкиИнструментов</commonForms>
-  <commonForms>CommonForm.УИ_НастройкиСохраненияИсходныхФайловКонфигурации</commonForms>
-  <commonForms>CommonForm.УИ_РедакторТабличногоДокумента</commonForms>
-  <commonForms>CommonForm.УИ_СравнениеТабличныхДокументов</commonForms>
+  <commonForms>CommonForm.УИ_НастройкаИмпорта</commonForms>
   <commonForms>CommonForm.УИ_НастройкиДинамическогоСписка</commonForms>
-  <commonForms>CommonForm.УИ_ФормаКода</commonForms>
-  <commonForms>CommonForm.УИ_ФормаСсылкиНаКод</commonForms>
-  <commonForms>CommonForm.УИ_ФормаВыбораЗначенияПеречисления</commonForms>
-  <commonForms>CommonForm.УИ_РедакторУникальногоИдентификатора</commonForms>
-  <commonForms>CommonForm.УИ_РедакторМоментаВремени</commonForms>
-  <commonForms>CommonForm.УИ_РедакторГраницы</commonForms>
-  <commonForms>CommonForm.УИ_РедакторСтруктуры</commonForms>
-  <commonForms>CommonForm.УИ_РедакторСоответствия</commonForms>
-  <commonForms>CommonForm.УИ_РедакторХранилищаЗначения</commonForms>
-  <commonForms>CommonForm.УИ_ФормаСпискаЗначений</commonForms>
-  <commonForms>CommonForm.УИ_РедакторКартинки</commonForms>
-  <commonForms>CommonForm.УИ_РедакторДвоичныхДанных</commonForms>
+  <commonForms>CommonForm.УИ_НастройкиИнструментов</commonForms>
+  <commonForms>CommonForm.УИ_НастройкиОтладкиДополнительныхОбработок</commonForms>
+  <commonForms>CommonForm.УИ_НастройкиСохраненияИсходныхФайловКонфигурации</commonForms>
+  <commonForms>CommonForm.УИ_ПараметрыЗаписи</commonForms>
   <commonForms>CommonForm.УИ_ПараметрыСессииВзаимодействияРедактораКода</commonForms>
+  <commonForms>CommonForm.УИ_РедактированиеТипаЗначения</commonForms>
+  <commonForms>CommonForm.УИ_РедакторГраницы</commonForms>
+  <commonForms>CommonForm.УИ_РедакторДвоичныхДанных</commonForms>
+  <commonForms>CommonForm.УИ_РедакторКартинки</commonForms>
+  <commonForms>CommonForm.УИ_РедакторМоментаВремени</commonForms>
+  <commonForms>CommonForm.УИ_РедакторСоответствия</commonForms>
+  <commonForms>CommonForm.УИ_РедакторСтруктуры</commonForms>
+  <commonForms>CommonForm.УИ_РедакторТаблицыЗначений</commonForms>
+  <commonForms>CommonForm.УИ_РедакторТабличногоДокумента</commonForms>
+  <commonForms>CommonForm.УИ_РедакторУникальногоИдентификатора</commonForms>
+  <commonForms>CommonForm.УИ_РедакторХранилищаЗначения</commonForms>
+  <commonForms>CommonForm.УИ_СравнениеТабличныхДокументов</commonForms>
+  <commonForms>CommonForm.УИ_ФормаВыбораЗначенияПеречисления</commonForms>
+  <commonForms>CommonForm.УИ_ФормаВыбораТипаОбъекта</commonForms>
+  <commonForms>CommonForm.УИ_ФормаКода</commonForms>
+  <commonForms>CommonForm.УИ_ФормаРедактированияСпискаЗначений</commonForms>
+  <commonForms>CommonForm.УИ_ФормаРедактированияТекста</commonForms>
+  <commonForms>CommonForm.УИ_ФормаСпецЗначения</commonForms>
+  <commonForms>CommonForm.УИ_ФормаСпискаЗначений</commonForms>
+  <commonForms>CommonForm.УИ_ФормаСсылкиНаКод</commonForms>
+  <commonForms>CommonForm.УИ_ФормаТаблицыЗначений</commonForms>
+  <commonForms>CommonForm.УИ_ФормаХранилищаЗначения</commonForms>
   <catalogs>Catalog.УИ_Алгоритмы</catalogs>
   <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
   <reports>Report.УИ_КонсольОтчетов</reports>

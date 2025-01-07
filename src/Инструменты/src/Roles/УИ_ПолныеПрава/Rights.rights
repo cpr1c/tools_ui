@@ -821,6 +821,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.УИ_НастройкаИмпорта</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.УИ_ФормаТаблицыЗначений</name>
 		<right>
 			<name>View</name>
