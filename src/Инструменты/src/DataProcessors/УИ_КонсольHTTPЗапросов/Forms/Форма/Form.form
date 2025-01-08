@@ -5170,8 +5170,8 @@
                   <title>
                     <key>ru</key>
                     <value>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;b>Запрос&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Consolas>&lt;fontsize 10>&lt;bgcolor #d4d4d4>HTTPЗапрос&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- Подготовленный к выполнению запрос &lt;/>&lt;/>&lt;/>
-&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;b>Соединение&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;bgcolor #ffffff>&lt;font Consolas>&lt;fontsize 10>&lt;bgcolor #d4d4d4>&lt;u>HTTPСоединение&lt;/>&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- Подготовленное к выполнению соединение&lt;/>&lt;/>&lt;/>
-&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;b>Отказ&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;i>Булево&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- Если установлено &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;i>Истина&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;b>Соединение&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Consolas>&lt;fontsize 10>&lt;bgcolor #d4d4d4>&lt;u>HTTPСоединение&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- Подготовленное к выполнению соединение&lt;/>&lt;/>&lt;/>
+&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;b>Отказ&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;i>Булево&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- Если установлено значение установлено = &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;i>Истина, &lt;/>выполнение будет прервано&lt;/>&lt;/>&lt;/>
 </value>
                   </title>
                   <visible>true</visible>
@@ -5275,6 +5275,137 @@
                 <extendedTooltip>
                   <name>ГруппаСтраницаАлгоритмовЗапросаПередВыполнениемРасширеннаяПодсказка</name>
                   <id>701</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <type>Page</type>
+                <extInfo xsi:type="form:PageGroupExtInfo">
+                  <group>Vertical</group>
+                  <showTitle>true</showTitle>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormGroup">
+                <name>ГруппаСтраницаАлгоритмовЗапросаПослеВыполнения</name>
+                <id>707</id>
+                <items xsi:type="form:Decoration">
+                  <name>ДекорацияАлгоритмПослеВыполненияЛегенда</name>
+                  <id>712</id>
+                  <title>
+                    <key>ru</key>
+                    <value>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;b>Ответ&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #d4d4d4>HTTPОтвет&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- Ответ сервера&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>
+&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;b>Запрос&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Consolas>&lt;fontsize 10>&lt;bgcolor #d4d4d4>HTTPЗапрос&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- Выполняемый запрос &lt;/>&lt;/>&lt;/>
+&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>&lt;b>Соединение&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff> &lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- &lt;/>&lt;/>&lt;/>&lt;font Consolas>&lt;fontsize 10>&lt;bgcolor #d4d4d4>&lt;u>HTTPСоединение&lt;/>&lt;/>&lt;/>&lt;/>&lt;font Segoe UI>&lt;fontsize 9>&lt;bgcolor #ffffff>- Используемое для выполнения соединение&lt;/>&lt;/>&lt;/></value>
+                  </title>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>ДекорацияАлгоритмПослеВыполненияЛегендаРасширеннаяПодсказка</name>
+                    <id>714</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>ДекорацияАлгоритмПослеВыполненияЛегендаКонтекстноеМеню</name>
+                    <id>713</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <formatted>true</formatted>
+                  <type>Label</type>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <horizontalStretch>true</horizontalStretch>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </items>
+                <items xsi:type="form:FormField">
+                  <name>ПолеАлгоритмаПослеВыполнения</name>
+                  <id>709</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>ПолеАлгоритмаПослеВыполнения</segments>
+                  </dataPath>
+                  <titleLocation>None</titleLocation>
+                  <extendedTooltip>
+                    <name>ПолеАлгоритмаПослеВыполненияРасширеннаяПодсказка</name>
+                    <id>711</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>ПолеАлгоритмаПослеВыполненияКонтекстноеМеню</name>
+                    <id>710</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <type>TextDocumentField</type>
+                  <editMode>Enter</editMode>
+                  <showInHeader>true</showInHeader>
+                  <headerHorizontalAlign>Left</headerHorizontalAlign>
+                  <showInFooter>true</showInFooter>
+                  <extInfo xsi:type="form:TextDocFieldExtInfo">
+                    <width>25</width>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <height>5</height>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <horizontalStretch>true</horizontalStretch>
+                    <verticalStretch>true</verticalStretch>
+                  </extInfo>
+                </items>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>После выполнения</value>
+                </title>
+                <extendedTooltip>
+                  <name>ГруппаСтраницаАлгоритмовЗапросаПослеВыполненияРасширеннаяПодсказка</name>
+                  <id>708</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -7798,10 +7929,10 @@
       </edit>
     </columns>
     <columns>
-      <name>АлгоритмОбработкиРезультата</name>
+      <name>АлгоритмПослеВыполнения</name>
       <title>
         <key>ru</key>
-        <value>Алгоритм обработки результата</value>
+        <value>Алгоритм после выполнения</value>
       </title>
       <id>162</id>
       <valueType>
@@ -8917,6 +9048,24 @@
       <value>Поле тела запроса</value>
     </title>
     <id>165</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПолеАлгоритмаПослеВыполнения</name>
+    <title>
+      <key>ru</key>
+      <value>Поле алгоритма перед выполнением</value>
+    </title>
+    <id>166</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
