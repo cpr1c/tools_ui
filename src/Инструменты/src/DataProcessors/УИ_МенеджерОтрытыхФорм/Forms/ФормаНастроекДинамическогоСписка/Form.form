@@ -541,6 +541,6 @@
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:SettingsComposerFormExtInfo">
-    <userSettingsGroup>Language.ницы/items:ПользовательскиеНастройки/items:КомпоновщикНастроекПользовательскиеНастройки</userSettingsGroup>
+    <userSettingsGroup>КомпоновщикНастроекПользовательскиеНастройки</userSettingsGroup>
   </extInfo>
 </form:Form>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98f68e72-8daa-43fd-a010-394e1bb97a28">
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c179741-4ecf-4a1f-a8c2-b05208e293cd">
   <producedTypes>
-    <objectType typeId="a9430738-6517-4cc5-96b4-3072d1a29a9a" valueTypeId="4adfb2b4-072c-468f-aae6-3be0c4c079ea"/>
-    <managerType typeId="481e0e22-8a0e-47c3-99dc-1be9e4b22fde" valueTypeId="bfe48810-cf53-4648-b6ec-92e864098f8e"/>
+    <objectType typeId="27d61491-896b-4757-8ca8-2fb174e60516" valueTypeId="c97889bb-fd73-4bb8-b3b2-c3b0073f5909"/>
+    <managerType typeId="67821cfe-67fa-4cea-971b-4e804e73ebe4" valueTypeId="6b307353-336a-4d92-8ac2-90d93b1a499c"/>
   </producedTypes>
   <name>УИ_МенеджерОтрытыхФорм</name>
   <synonym>
@@ -16,7 +16,7 @@
       <lang>ru</lang>
     </pages>
   </help>
-  <forms uuid="7b81c211-0973-4317-983c-406ed47396e8">
+  <forms uuid="7ab41c9f-50fc-49bf-a7e2-3ef06fdcffbd">
     <name>Форма</name>
     <synonym>
       <key>ru</key>
@@ -25,7 +25,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="c32ad255-31f4-4e2d-811e-014c14b65dee">
+  <forms uuid="f0a53720-477e-492d-8378-9f4a5b850e45">
     <name>РедактированиеНастройкиИзХранилища</name>
     <synonym>
       <key>ru</key>
@@ -34,7 +34,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="164a4a0f-ee77-4a98-a71a-58106ce6e4cd">
+  <forms uuid="e5180343-ffbb-4d10-8622-e867e0b85193">
     <name>НастройкиОбработки</name>
     <synonym>
       <key>ru</key>
@@ -43,7 +43,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="60a3a4f5-f810-4191-a92b-b815c354275c">
+  <forms uuid="2735fd63-9aaa-4cd0-9f77-34a91f6805a8">
     <name>РедакторПроизвольныхЗначений</name>
     <synonym>
       <key>ru</key>
@@ -52,7 +52,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="e9d1f001-2068-4c7d-ab4b-9630ddf531ae">
+  <forms uuid="8c91b074-07e7-4f7b-8228-68e10e003391">
     <name>ОткрытиеФормы</name>
     <synonym>
       <key>ru</key>
@@ -61,7 +61,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="be82e7e9-0a3e-438c-8be4-961bf14f8151">
+  <forms uuid="f021f12c-1262-446c-b1ed-3a6427a29b21">
     <name>ФормаНастроекДинамическогоСписка</name>
     <synonym>
       <key>ru</key>
@@ -76,7 +76,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="ffa874a7-6c82-495d-b67e-6d629fa0f047">
+  <forms uuid="9cdadbfb-914d-4481-a5d0-f46adb1d1c5c">
     <name>ФормаНастроекКомпоновки</name>
     <synonym>
       <key>ru</key>
@@ -85,7 +85,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="9fc1fefa-2211-47d4-8ef4-16ebaf8a20d6">
+  <forms uuid="ae55777b-a493-4c86-bb16-f10886bcea38">
     <name>РедакторСтруктурыСоответствия</name>
     <synonym>
       <key>ru</key>
@@ -94,7 +94,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="5fdd9462-9fe1-402d-861a-9b246a54ee73">
+  <forms uuid="09ae969d-c93b-4fee-a500-1fd09cce2577">
     <name>ФормаРедакторXML</name>
     <synonym>
       <key>ru</key>
@@ -103,7 +103,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="33284f25-ff06-427d-9d0b-def5dbc3fa7f">
+  <forms uuid="afaa53fd-02a1-4769-89d6-33c227a23276">
     <name>ОбщегоНазначения</name>
     <synonym>
       <key>ru</key>
