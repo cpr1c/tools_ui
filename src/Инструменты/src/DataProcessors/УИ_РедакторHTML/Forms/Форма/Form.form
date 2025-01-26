@@ -792,7 +792,7 @@
             <changeRowSet>true</changeRowSet>
             <changeRowOrder>true</changeRowOrder>
             <autoMaxWidth>true</autoMaxWidth>
-            <height>3</height>
+            <height>2</height>
             <autoMaxHeight>true</autoMaxHeight>
             <autoMaxRowsCount>true</autoMaxRowsCount>
             <selectionMode>MultiRow</selectionMode>
@@ -1105,7 +1105,7 @@
               <changeRowSet>true</changeRowSet>
               <changeRowOrder>true</changeRowOrder>
               <autoMaxWidth>true</autoMaxWidth>
-              <height>3</height>
+              <height>2</height>
               <autoMaxHeight>true</autoMaxHeight>
               <autoMaxRowsCount>true</autoMaxRowsCount>
               <selectionMode>MultiRow</selectionMode>
