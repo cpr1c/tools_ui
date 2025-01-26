@@ -110,6 +110,7 @@
   <content>DataProcessor.УИ_Алгоритмы2</content>
   <content>DataProcessor.УИ_РедакторПараметровСеанса</content>
   <content>DataProcessor.УИ_ПросмотрЗначения</content>
-  <subsystems>УИ_Поддержка</subsystems>
+  <content>DataProcessor.УИ_МенеджерОтрытыхФорм</content>
   <subsystems>УИ_Отладка</subsystems>
+  <subsystems>УИ_Поддержка</subsystems>
 </mdclass:Subsystem>
