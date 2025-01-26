@@ -1,10 +1,11 @@
 # в текстовых файлах нормализовать окончания строк в LF
 *       text=auto
-
 # в бинарых файлах ничего не далать
-*.bin   binary
+*.bin filter=lfs diff=lfs merge=lfs -text
 *.addin binary
-*.png   binary
-*.zip   binary
-*.gif   binary
-*.bmp   binary
+*.png filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.bmp filter=lfs diff=lfs merge=lfs -text
+*.cf filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
