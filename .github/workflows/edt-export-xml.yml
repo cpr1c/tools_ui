@@ -30,6 +30,9 @@ jobs:
         ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
       timeout-minutes: 30
 
+    - name: Файлы EDT
+      run: cd /opt/1C/1CE/components && ls -aRl
+
     - name: Установка 1С:Предприятие 8.3.14.1944
       uses: 1CDevFlow/onec-setup-action@main
       with:
