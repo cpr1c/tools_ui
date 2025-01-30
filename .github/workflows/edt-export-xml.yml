@@ -31,7 +31,7 @@ jobs:
       timeout-minutes: 30
 
     - name: Файлы ЕДТ
-      run: cd "C:\Program Files\1C" && dir /S
+      run: cd "C:\Program Files\1C" && ls -R
 
     - name: Установка 1С:Предприятие 8.3.14.2095
       uses: 1CDevFlow/onec-setup-action@main
