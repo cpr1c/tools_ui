@@ -50,7 +50,7 @@ jobs:
         # ovm_version: # optional, default is latest
           
     - name: Ковертация исходников Инструментов
-      run: oscript --version
+      run: oscript ${{ github.base_ref }}/build.sh
       timeout-minutes: 5
 
     # - name: Ковертация исходников Портативной обработки
