@@ -46,18 +46,18 @@ jobs:
       with:
         version: 1.9.2
           
-    - name: Ковертация исходников Инструментов
-      run: ./build.sh
-      timeout-minutes: 5
+    # - name: Ковертация исходников Инструментов
+    #   run: ./build.sh
+    #   timeout-minutes: 5
 
-    # - name: Ковертация исходников Портативной обработки
-    #   uses: alkoleft/onec-edtcli-command-action@main
-    #   with:
-    #     export: true
-    #     from: src/Портативный
-    #     to: export/Портативный
-    #     timeout: 15
-    #   timeout-minutes: 15
+    - name: Ковертация исходников Портативной обработки
+      uses: alkoleft/onec-edtcli-command-action@main
+      with:
+        export: true
+        from: src/Портативный
+        to: build/source/Портативный
+        timeout: 15
+      timeout-minutes: 15
 
     # - name: Упаковка исходников в архив
     #   run: |
