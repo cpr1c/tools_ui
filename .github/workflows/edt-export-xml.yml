@@ -1,19 +1,5 @@
 name: Конвертация исходников в формат конфигуратора
-on:
-  workflow_call:
-    inputs:
-      edt_version:
-        type: string
-        required: true
-
-      artifact_name:
-        type: string
-        required: true
-
-      engine_only:
-        type: boolean
-        required: false
-        default: false
+on: [push]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref_name }}-${{ github.event.number }}-export
