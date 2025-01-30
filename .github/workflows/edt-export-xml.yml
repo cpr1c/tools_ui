@@ -61,6 +61,15 @@ jobs:
         timeout: 15
       timeout-minutes: 15  
 
+    - name: Ковертация исходников Портативный
+      uses: alkoleft/onec-edtcli-command-action@main
+      with:
+        export: true
+        from: src/Портативный
+        to: build/source/Портативный
+        timeout: 15
+      timeout-minutes: 15  
+
     # - name: Каталог репозитория
     #   run: echo ${{ github.workflow }}
 
