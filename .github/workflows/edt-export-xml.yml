@@ -45,9 +45,12 @@ jobs:
       uses: otymko/setup-onescript@v1.4
       with:
         version: 1.9.2
-          
-    - name: установленные файлы ЕДТ
-      run: cd /opt/1C/1CE && ls -a -R -l
+     
+    - name: Проверка файлов установки платформы
+      run: cd /opt/1cv8 && ls -aRl    
+
+    - name: Запуск сборки
+      run: ./build.sh --edtSource=/opt/1C/1CE/components/1c-edt-2024.1.3+13-x86_64/" --platformSource=/opt/1cv8/x86_64/8.3.14.1944
       timeout-minutes: 5
 
     - name: Ковертация исходников Портативной обработки
