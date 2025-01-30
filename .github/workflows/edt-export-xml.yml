@@ -1,0 +1,76 @@
+name: Конвертация исходников в формат конфигуратора
+on:
+  workflow_call:
+    inputs:
+      edt_version:
+        type: string
+        required: true
+
+      artifact_name:
+        type: string
+        required: true
+
+      engine_only:
+        type: boolean
+        required: false
+        default: false
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref_name }}-${{ github.event.number }}-export
+  cancel-in-progress: true
+
+jobs:
+  export:
+    name: Конвертация
+    runs-on: ubuntu-22.04
+    outputs:
+      yaxunit_version: ${{ steps.extract_version.outputs.version }}
+      smoke_version: ${{ steps.extract_smoke_version.outputs.version }}
+
+    steps:
+     
+    - name: Извлечение исходников ветки ${{ github.ref_name }}
+      if: github.event_name == 'push'
+      uses: actions/checkout@v4
+
+    - name: Установка 1C:EDT
+      uses: 1CDevFlow/onec-setup-action@main
+      with:
+        type: edt
+        edt_version: ${{ inputs.edt_version }}
+        cache: true
+      env:
+        ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
+        ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
+      timeout-minutes: 30
+
+    - name: Ковертация исходников Инструментов
+      uses: alkoleft/onec-edtcli-command-action@main
+      with:
+        export: true
+        from: src/Инструменты
+        to: export/Инструменты
+        timeout: 15
+      timeout-minutes: 15
+
+    - name: Ковертация исходников Портативной обработки
+      uses: alkoleft/onec-edtcli-command-action@main
+      with:
+        export: true
+        from: src/Портативный
+        to: export/Портативный
+        timeout: 15
+      timeout-minutes: 15
+
+    - name: Упаковка исходников в архив
+      run: |
+        cd export
+        7za a -t7z ../export.7z ./
+
+    - name: Публикация исходников в формате конфигуратора
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ inputs.artifact_name }}
+        path: export.7z
+        if-no-files-found: error
+        retention-days: 1
