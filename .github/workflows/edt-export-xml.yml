@@ -30,9 +30,6 @@ jobs:
         ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
       timeout-minutes: 30
 
-    - name: Файлы EDT
-      run: cd /opt/1C/1CE/components && ls -aRl
-
     - name: Установка 1С:Предприятие 8.3.14.1944
       uses: 1CDevFlow/onec-setup-action@main
       with:
@@ -67,8 +64,12 @@ jobs:
     # - name: Каталог репозитория
     #   run: echo ${{ github.workflow }}
 
-    # - name: Файлы билда
-    #   run: cd build && ls -aRl
+    - name: Файлы билда
+      run: cd build && ls -aRl
+
+    - name: Сборка расширений
+      run: ./build.sh  --edtSource="/opt/1C/1CE/components/1c-edt-2024.1.3+13-x86_64/" --exportEDT=false --cfe=true --cf=false --epf=false --deleteSourse=false
+      timeout-minutes: 30
 
     # - name: Ковертация исходников Портативной обработки
     #   uses: alkoleft/onec-edtcli-command-action@main
