@@ -56,6 +56,9 @@ jobs:
       run: ./build.sh  --edtSource="/opt/1C/1CE/components/1c-edt-2024.1.3+13-x86_64/" --exportEDT=true --cfe=false --cf=false --epf=false --deleteSourse=false
       timeout-minutes: 30
       
+    - name: Каталог репозитория
+      run: echo ${{ github.workflow }}
+
     - name: Файлы билда
       run: cd build && ls -aRl
 
