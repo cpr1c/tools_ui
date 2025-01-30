@@ -44,8 +44,8 @@ jobs:
     - name: Setup Onescript Action
       uses: otymko/setup-onescript@v1.4
       with:
-        version: 1.9.2
-     
+        version: 1.8.4
+        
     - name: Установка зависимостей Oscript
       run: opm install --all
 
