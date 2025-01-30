@@ -47,7 +47,7 @@ jobs:
         version: 1.8.4
 
     - name: Установка зависимостей Oscript
-      run: opm install
+      run: opm install cli fs logos tempfiles v8runner v8find 1commands
 
     - name: Запуск сборки
       run: ./build.sh --edtSource=/opt/1C/1CE/components/1c-edt-2024.1.3+13-x86_64/ --platformSource=/opt/1C/v8.3/x86_64
