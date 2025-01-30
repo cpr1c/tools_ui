@@ -46,9 +46,9 @@ jobs:
       with:
         version: 1.9.2
           
-    # - name: Ковертация исходников Инструментов
-    #   run: ./build.sh
-    #   timeout-minutes: 5
+    - name: установленные файлы ЕДТ
+      run: cd /opt/1C/1CE && ls -a -R -l
+      timeout-minutes: 5
 
     - name: Ковертация исходников Портативной обработки
       uses: alkoleft/onec-edtcli-command-action@main
