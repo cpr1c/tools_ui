@@ -52,9 +52,9 @@ jobs:
     - name: Установка зависимостей Oscript
       run: opm install cli fs logos tempfiles v8runner v8find 1commands
 
-    # - name: Экспорт исходников
-    #   run: oscript -encoding=utf-8 .\src\builder\build.os  --edtSource="/opt/1C/1CE/components/1c-edt-2023.1.2+6-x86_64/" --exportEDT=true --cfe=false --cf=false --epf=false --deleteSourse=false
-    #   timeout-minutes: 30
+    - name: Экспорт исходников
+      run: oscript -encoding=utf-8 .\src\builder\build.os  --edtSource="C:\Program Files\1C\1CE\components\1c-edt-2024.1.3+13-x86_64\" --exportEDT=true --cfe=false --cf=false --epf=false --deleteSourse=false
+      timeout-minutes: 30
     - name: Ковертация исходников Инструменты
       uses: alkoleft/onec-edtcli-command-action@main
       with:
