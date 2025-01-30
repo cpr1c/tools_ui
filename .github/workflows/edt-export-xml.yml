@@ -19,16 +19,16 @@ jobs:
       if: github.event_name == 'push'
       uses: actions/checkout@v4
 
-    - name: Установка 1C:EDT
-      uses: 1CDevFlow/onec-setup-action@main
-      with:
-        type: edt
-        edt_version: 2024.1.3
-        cache: true
-      env:
-        ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
-        ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
-      timeout-minutes: 30
+    # - name: Установка 1C:EDT
+    #   uses: 1CDevFlow/onec-setup-action@main
+    #   with:
+    #     type: edt
+    #     edt_version: 2024.1.3
+    #     cache: true
+    #   env:
+    #     ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
+    #     ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
+    #   timeout-minutes: 30
 
     - name: Установка 1С:Предприятие 8.3.14.1944
       uses: 1CDevFlow/onec-setup-action@main
@@ -41,13 +41,13 @@ jobs:
         ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
       timeout-minutes: 10      
 
-    - name: Setup Onescript Action
-      uses: otymko/setup-onescript@v1.4
-      with:
-        version: 1.9.2
+    # - name: Setup Onescript Action
+    #   uses: otymko/setup-onescript@v1.4
+    #   with:
+    #     version: 1.9.2
      
     - name: Проверка файлов установки платформы
-      run: cd /opt/1cv8 && ls -aRl    
+      run: cd /opt && ls -aRl    
 
     - name: Запуск сборки
       run: ./build.sh --edtSource=/opt/1C/1CE/components/1c-edt-2024.1.3+13-x86_64/" --platformSource=/opt/1cv8/x86_64/8.3.14.1944
