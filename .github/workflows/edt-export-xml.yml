@@ -55,25 +55,25 @@ jobs:
     - name: Экспорт исходников
       # shell: pwsh
       # run: cd ${{ github.workflow }} && oscript -encoding=utf-8 .\src\builder\build.os  --edtSource="C:\Program Files\1C\1CE\components\1c-edt-2024.1.3+13-x86_64\" --platformSource="C:\Program Files\1cv8\8.3.14.2095\bin\"
-      run: opm run build
+      run: ./build_actions.bat
       timeout-minutes: 30
-    - name: Ковертация исходников Инструменты
-      uses: alkoleft/onec-edtcli-command-action@main
-      with:
-        export: true
-        from: src/Инструменты
-        to: build/source/Инструменты
-        timeout: 15
-      timeout-minutes: 15  
+    # - name: Ковертация исходников Инструменты
+    #   uses: alkoleft/onec-edtcli-command-action@main
+    #   with:
+    #     export: true
+    #     from: src/Инструменты
+    #     to: build/source/Инструменты
+    #     timeout: 15
+    #   timeout-minutes: 15  
 
-    - name: Ковертация исходников Портативный
-      uses: alkoleft/onec-edtcli-command-action@main
-      with:
-        export: true
-        from: src/Портативный
-        to: build/source/Портативный
-        timeout: 15
-      timeout-minutes: 15  
+    # - name: Ковертация исходников Портативный
+    #   uses: alkoleft/onec-edtcli-command-action@main
+    #   with:
+    #     export: true
+    #     from: src/Портативный
+    #     to: build/source/Портативный
+    #     timeout: 15
+    #   timeout-minutes: 15  
 
     # - name: Каталог репозитория
     #   run: echo ${{ github.workflow }}
