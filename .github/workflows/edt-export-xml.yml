@@ -48,7 +48,7 @@ jobs:
     #   timeout-minutes: 10     
 
     - name: LS
-      run: cd /opt/1CE && ls -aR
+      run: cd  /opt/1C/1CE/components && ls -aR
 
     # - name: Setup Onescript Action
     #   uses: otymko/setup-onescript@v1.4
