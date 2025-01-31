@@ -59,10 +59,10 @@ jobs:
       shell: bash
       # run: cd ${{ github.workflow }} && oscript -encoding=utf-8 .\src\builder\build.os  --edtSource="C:\Program Files\1C\1CE\components\1c-edt-2024.1.3+13-x86_64\" --platformSource="C:\Program Files\1cv8\8.3.14.2095\bin\"
       # run: oscript.exe -encoding=utf-8 .\src\builder\build.os 
-      run: 1cedtcli.exe -v -data ${{ github.workflow }}\build\tmp\instrumdata -command export --project ${{ github.workflow }}\src\Инструменты --configuration-files ${{ github.workflow }}\build\source\Инструменты
+      run: C:\PROGRA~1\1C\1CE\components\1c-edt-2024.1.3+13-x86_64\1cedtcli.exe -v -data build\tmp\instrumdata -command export --project src\Инструменты --configuration-files build\source\Инструменты
  
       timeout-minutes: 30
-      working-directory: ${{ env.TOOLS_BUILDER_EDT_PATH }}
+      # working-directory: ${{ env.TOOLS_BUILDER_EDT_PATH }}
 
     # - name: Ковертация исходников Инструменты
     #   uses: alkoleft/onec-edtcli-command-action@main
