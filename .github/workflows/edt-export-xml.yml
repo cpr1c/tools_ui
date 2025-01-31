@@ -89,7 +89,7 @@ jobs:
     #   run: cd ./build && ls -aRl
 
     - name: Сборка расширений
-      run: oscript -encoding=utf-8 ./src/builder/build.os --exportEDT=false --cfe=true --cf=false --epf=false --deleteSourse=false
+      run: oscript -encoding=utf-8 ${{ github.workspace }}/src/builder/build.os --exportEDT=false --cfe=true --cf=false --epf=false --deleteSourse=false
       timeout-minutes: 30
 
     # - name: Ковертация исходников Портативной обработки
