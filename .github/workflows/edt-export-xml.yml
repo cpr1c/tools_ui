@@ -12,6 +12,9 @@ jobs:
   build:
     name: Сборка файлов инструментов
     runs-on: windows-latest
+    env:
+      TOOLS_BUILDER_PLATFORM_PATH: "C:\\Program Files\\1cv8\\8.3.14.2095\\bin\\"
+      TOOLS_BUILDER_EDT_PATH: "C:\\Program Files\\1C\\1CE\\components\\1c-edt-2024.1.3+13-x86_64\\"
 
     steps:
      
@@ -55,11 +58,9 @@ jobs:
     - name: Экспорт исходников
       # shell: cmd
       # run: cd ${{ github.workflow }} && oscript -encoding=utf-8 .\src\builder\build.os  --edtSource="C:\Program Files\1C\1CE\components\1c-edt-2024.1.3+13-x86_64\" --platformSource="C:\Program Files\1cv8\8.3.14.2095\bin\"
-      run: oscript.exe -encoding=utf-8 .\src\builder\build.os 
+      # run: oscript.exe -encoding=utf-8 .\src\builder\build.os 
+      run: ${{ env.TOOLS_BUILDER_EDT_PATH }}/1cedtcli.exe -v -data build/tmp/instrumdata -command export --project src/Инструменты --configuration-files build/source/Инструменты
       timeout-minutes: 30
-      env:
-        TOOLS_BUILDER_PLATFORM_PATH: "C:\\Program Files\\1cv8\\8.3.14.2095\\bin\\"
-        TOOLS_BUILDER_EDT_PATH: "C:\\Program Files\\1C\\1CE\\components\\1c-edt-2024.1.3+13-x86_64\\"
 
     # - name: Ковертация исходников Инструменты
     #   uses: alkoleft/onec-edtcli-command-action@main
