@@ -62,6 +62,7 @@ jobs:
       # run: '${{ env.TOOLS_BUILDER_EDT_PATH }}1cedtcli.exe' -v -data build\tmp\instrumdata -command export --project src\Инструменты --configuration-files build\source\Инструменты
       run: echo ${PATH}
       timeout-minutes: 30
+      working-directory: ${{ env.TOOLS_BUILDER_EDT_PATH }}
 
     # - name: Ковертация исходников Инструменты
     #   uses: alkoleft/onec-edtcli-command-action@main
