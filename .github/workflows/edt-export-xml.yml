@@ -13,8 +13,8 @@ jobs:
     name: Сборка файлов инструментов
     runs-on: ubuntu-20.04
     env:
-      TOOLS_BUILDER_PLATFORM_PATH: "/opt/1C/v8.3/x86_64"
-      TOOLS_BUILDER_EDT_PATH: "C:\\Program Files\\1C\\1CE\\components\\1c-edt-2024.1.3+13-x86_64\\"
+      TOOLS_BUILDER_PLATFORM_PATH: "/opt/1C/v8.3/x86_64/"
+      TOOLS_BUILDER_EDT_PATH: "/opt/1C/1CE/components/1c-edt-2024.1.3+13-x86_64/"
 
     steps:
      
@@ -33,9 +33,6 @@ jobs:
         ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
       timeout-minutes: 30
 
-    # - name: Файлы ЕДТ
-    #   run: cd "C:\Program Files\1C" && ls -R
-
     # - name: Установка 1С:Предприятие 8.3.14.2095
     #   uses: 1CDevFlow/onec-setup-action@main
     #   with:
@@ -46,9 +43,6 @@ jobs:
     #     ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
     #     ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
     #   timeout-minutes: 10     
-
-    - name: LS
-      run: cd  /opt/1C/1CE/components && ls -aR
 
     # - name: Setup Onescript Action
     #   uses: otymko/setup-onescript@v1.4
@@ -62,8 +56,7 @@ jobs:
       shell: bash
       # run: cd ${{ github.workflow }} && oscript -encoding=utf-8 .\src\builder\build.os  --edtSource="C:\Program Files\1C\1CE\components\1c-edt-2024.1.3+13-x86_64\" --platformSource="C:\Program Files\1cv8\8.3.14.2095\bin\"
       # run: oscript.exe -encoding=utf-8 .\src\builder\build.os 
-      run: C:\PROGRA~1\1C\1CE\components\1c-edt-2024.1.3+13-x86_64\1cedtcli.exe -v -data build\tmp\instrumdata -command export --project src\Инструменты --configuration-files build\source\Инструменты
- 
+      run: ${{ env.TOOLS_BUILDER_EDT_PATH }}1cedtcli.sh -v -data build/tmp/instrumdata -command export --project src/Инструменты --configuration-files build/source/Инструменты
       timeout-minutes: 30
       # working-directory: ${{ env.TOOLS_BUILDER_EDT_PATH }}
 
