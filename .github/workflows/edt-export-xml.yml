@@ -18,9 +18,9 @@ jobs:
 
     steps:
      
-    # - name: Извлечение исходников ветки ${{ github.ref_name }}
-    #   if: github.event_name == 'push'
-    #   uses: actions/checkout@v4
+    - name: Извлечение исходников ветки ${{ github.ref_name }}
+      if: github.event_name == 'push'
+      uses: actions/checkout@v4
 
     - name: Установка 1C:EDT
       uses: 1CDevFlow/onec-setup-action@main
@@ -101,15 +101,16 @@ jobs:
     #     timeout: 15
     #   timeout-minutes: 15
 
-    # - name: Упаковка исходников в архив
-    #   run: |
-    #     cd export
-    #     7za a -t7z ../export.7z ./
+    - name: Упаковка исходников в архив
+      run: |
+        cd build
+        rm -R source
+        7za a -t7z ../export.7z ./
 
-    # - name: Публикация исходников в формате конфигуратора
-      # uses: actions/upload-artifact@v4
-      # with:
-      #   name: ${{ inputs.artifact_name }}
-      #   path: export.7z
-      #   if-no-files-found: error
-      #   retention-days: 1
+    - name: Публикация исходников в формате конфигуратора
+      uses: actions/upload-artifact@v4
+      with:
+        name: export.7z
+        path: export.7z
+        if-no-files-found: error
+        retention-days: 1
