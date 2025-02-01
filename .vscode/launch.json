@@ -42,7 +42,7 @@
       }
     },
     {
-      "name": "Сборка в расширения LINUX",
+      "name": "Сборка в расширения LINUX Автономный сервер",
       "type": "oscript",
       "request": "launch",
       "program": "${workspaceRoot}/src/builder/build.os",
@@ -61,20 +61,16 @@
       }
     },
     {
-      "name": "Сборка в конфигурацию(Без исходников)",
+      "name": "Сборка в конфигурацию LINUX Автономный сервер",
       "type": "oscript",
       "request": "launch",
       "program": "${workspaceRoot}/src/builder/build.os",
-      "args": [
-        "--platformSource=/opt/1cv8/x86_64/8.3.12.1924",
-        "--exportEDT=false",
-        "--cfe=false",
-        "--cf=true",
-        "--epf=false",
-        "--deleteSourse=false"
-      ],
+      "args": ["cf"],
       "cwd": "${workspaceRoot}",
-      "env": {},
+      "env": {
+        "TOOLS_UI_1C_BUILDER_EDT_PATH": "/home/levkin/.local/share/1C/1cedtstart/installations/1C_EDT (Lite) 2024.1/1cedt/",
+        "TOOLS_UI_1C_BUILDER_PLATFORM_PATH": "/opt/1cv8/x86_64/8.3.17.2760"
+      },
       "runtimeExecutable": null,
       "runtimeArgs": [],
       "debugPort": 2801,
