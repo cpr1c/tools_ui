@@ -48,12 +48,6 @@ jobs:
       - name: Конвертация исходников
         run: oscript -encoding=utf-8 ./src/builder/build.os xml
 
-      - name: Упаковка исходников в архив
-        run: |
-          cd build
-          7za a -t7z ../export.7z ./source
-          # rm -R source
-
       - name: Публикация исходников в формате конфигуратора
         uses: actions/upload-artifact@v4
         with:
