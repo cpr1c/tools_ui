@@ -13,6 +13,8 @@ jobs:
     name: Экспорт исходников в формате конфигуратора
     runs-on: ubuntu-22.04
     steps:
+      - name: JAVA
+        run: java -v
       - name: Извлечение исходников ветки ${{ github.ref_name }}
         if: github.event_name == 'push'
         uses: actions/checkout@v4
