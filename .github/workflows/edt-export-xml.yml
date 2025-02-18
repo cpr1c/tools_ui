@@ -48,8 +48,8 @@ jobs:
       - name: Упаковка исходников в архив
         run: |
           cd build
-          7za a -t7z ../export.7z ./source
-          rm -R source
+          7za a -t7z ../export.7z ./
+          # rm -R source
 
       - name: Публикация исходников в формате конфигуратора
         uses: actions/upload-artifact@v4
