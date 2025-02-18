@@ -115,8 +115,8 @@ jobs:
         with:
           prerelease: true
           files: |
-            *.cfe
-            *.cf
+            build/*.cfe
+            build/*.cf
           fail_on_unmatched_files: true
           generate_release_notes: false
           tag_name: "nigth"
