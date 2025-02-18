@@ -80,11 +80,11 @@ jobs:
           name: designer-src
           path: build/source
       
-      - name: Распаковка исходников
-        run: |
-          mkdir export
-          cd export
-          7z x ../export.7z -y
+      # - name: Распаковка исходников
+      #   run: |
+      #     mkdir export
+      #     cd export
+      #     7z x ../export.7z -y
 
       - name: Установка 1С:Предприятие 8.3.17.2760
         uses: 1CDevFlow/onec-setup-action@main
