@@ -24,6 +24,8 @@ jobs:
       - name: Извлечение исходников ветки ${{ github.ref_name }}
         if: github.event_name == 'push'
         uses: actions/checkout@v4
+        with:
+          lfs: true
 
       - name: Установка 1C:EDT
         uses: 1CDevFlow/onec-setup-action@main
