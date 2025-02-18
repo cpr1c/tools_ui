@@ -14,7 +14,10 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: JAVA
-        run: echo $PATH
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu' # See 'Supported distributions' for available options
+          java-version: '17'
       - name: Извлечение исходников ветки ${{ github.ref_name }}
         if: github.event_name == 'push'
         uses: actions/checkout@v4
