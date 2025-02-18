@@ -38,23 +38,23 @@ jobs:
       - name: test edt
         run: /opt/1C/1CE/components/1c-edt-2024.1.3+13-x86_64/1cedtcli -v -data "${{ github.workspace }}/build/tmp/tolworl"  -command export --project "${{ github.workspace }}/src/Инструменты" --configuration-files "${{ github.workspace }}/build/source/Инструменты" 
 
-      - name: Ковертация исходников Инструменты
-        uses: alkoleft/onec-edtcli-command-action@main
-        with:
-          export: true
-          from: src/Инструменты
-          to: build/source/Инструменты
-          timeout: 15
-        timeout-minutes: 15
+      # - name: Ковертация исходников Инструменты
+      #   uses: alkoleft/onec-edtcli-command-action@main
+      #   with:
+      #     export: true
+      #     from: src/Инструменты
+      #     to: build/source/Инструменты
+      #     timeout: 15
+      #   timeout-minutes: 15
 
-      - name: Ковертация исходников Портативный
-        uses: alkoleft/onec-edtcli-command-action@main
-        with:
-          export: true
-          from: src/Портативный
-          to: build/source/Портативный
-          timeout: 15
-        timeout-minutes: 15
+      # - name: Ковертация исходников Портативный
+      #   uses: alkoleft/onec-edtcli-command-action@main
+      #   with:
+      #     export: true
+      #     from: src/Портативный
+      #     to: build/source/Портативный
+      #     timeout: 15
+      #   timeout-minutes: 15
       # - name: Упаковка исходников в архив
       #   run: |
       #     cd build
