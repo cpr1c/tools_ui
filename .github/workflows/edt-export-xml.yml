@@ -51,14 +51,14 @@ jobs:
       - name: Упаковка исходников в архив
         run: |
           cd build
-          7za a -t7z ../export.7z ./
+          7za a -t7z ../export.7z ./source
           # rm -R source
 
       - name: Публикация исходников в формате конфигуратора
         uses: actions/upload-artifact@v4
         with:
           name: designer-src
-          path: export.7z
+          path: build/source
           if-no-files-found: error
           retention-days: 1
 
@@ -78,7 +78,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: designer-src
-          path: build/
+          path: build/source
       
       - name: Распаковка исходников
         run: |
