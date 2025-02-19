@@ -150,7 +150,7 @@ jobs:
           generate_release_notes: false
           tag_name: "nigth"
           append_body: false
-          name: Ночная сборка по коммиту ${{ github.event.head_commit }}
+          name: Ночная сборка по коммиту "${{ github.event.head_commit.message }}"
           token: ${{ secrets.GITHUB_TOKEN }}
 
   
