@@ -1,0 +1,14 @@
+name: Проверка Sonar
+
+on: 
+  - push
+  - pull_request_target
+
+jobs:
+  SonarQualityGate:
+    uses: "1CDevFlow/workflows/.github/workflows/sonar-analysis-with-openbsl.yml@main"
+    with:
+      root-project-path: ./src/Инструменты/src
+    secrets:
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+  
