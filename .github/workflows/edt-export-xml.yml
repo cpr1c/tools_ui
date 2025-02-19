@@ -119,7 +119,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
   build-portable:
-    name: Сборка файлов инструментов cfe/cf
+    name: Сборка файлов портативной поставки
     runs-on: self-hosted
     needs: export-xml
     env:
