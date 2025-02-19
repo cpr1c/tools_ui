@@ -73,12 +73,6 @@ jobs:
         with:
           name: designer-src
           path: build/source
-      
-      # - name: Распаковка исходников
-      #   run: |
-      #     mkdir export
-      #     cd export
-      #     7z x ../export.7z -y
 
       - name: Установка 1С:Предприятие 8.3.17.2760
         uses: 1CDevFlow/onec-setup-action@main
@@ -113,9 +107,9 @@ jobs:
             build/*.cf
           fail_on_unmatched_files: true
           generate_release_notes: false
-          tag_name: "nigth"
+          tag_name: "dev"
           append_body: false
-          name: Ночная сборка по коммиту ${{ github.event.head_commit }}
+          name: Ночная сборка по коммиту ${{ github.event.head_commit.message  }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
   build-portable:
@@ -148,7 +142,7 @@ jobs:
           files: build/*.epf
           fail_on_unmatched_files: true
           generate_release_notes: false
-          tag_name: "nigth"
+          tag_name: "dev"
           append_body: false
           name: Ночная сборка по коммиту "${{ github.event.head_commit.message }}"
           token: ${{ secrets.GITHUB_TOKEN }}
