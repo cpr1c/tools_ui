@@ -111,6 +111,7 @@ jobs:
           append_body: false
           name: Ночная сборка по коммиту ${{ github.event.head_commit.message  }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          body: Сборка актуальной версии в разработке по последнему коммиту из ветки develop
 
   build-portable:
     name: Сборка файлов портативной поставки
@@ -146,6 +147,7 @@ jobs:
           append_body: false
           name: Ночная сборка по коммиту "${{ github.event.head_commit.message }}"
           token: ${{ secrets.GITHUB_TOKEN }}
+          body: Сборка актуальной версии в разработке по последнему коммиту из ветки develop
 
   
 
