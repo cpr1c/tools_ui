@@ -15,13 +15,15 @@ jobs:
       with:
         ref: refs/pull/${{ github.event.number }}/merge # Для поддержки pull_request и pull_request_target
         fetch-depth: 0 # Получение полной истории (все тэги и ветки)
+        lfs: true
       
     - name: Извлечение исходников ветки ${{ github.ref_name }}
       if: github.event_name == 'push'
       uses: actions/checkout@v4
       with:
         fetch-depth: 0 # Получение полной истории (все тэги и ветки)
-
+        lfs: true
+        
     - name: Извлечение версии проекта
       uses: ./.github/actions/extract-version
       with:
