@@ -10,4 +10,4 @@ jobs:
     with:
       root-project-path: ./src/Инструменты/src
     secrets:
-      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }} 
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
